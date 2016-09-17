@@ -1,0 +1,66 @@
+SquareShield Physics Engine Changelog
+********************************************
+Date Created: 5/30/2015
+Date Updated: 7/7/2015
+Development Version: 0.2.6 beta
+Stable Version: 0.2.5 beta
+Total builds: 543
+********************************************
+
+0.2.6 beta - 
+============================================
+- Removed extra debugging log function call
+
+0.2.5 beta - 3 builds (6/21/2015)
+============================================
+- Tested engine
+
+0.2.4 beta - 20 builds (6/21/2015)
+============================================
+- Fixed kinetic energy transfer procedure (velocities are combined based on collision direction BEFORE calculating kinetic energy)
+- Fixed physics engine's entities access (now based on functions)
+- Finished documentation
+
+0.2.3 beta - 27 builds (6/18/2015)
+============================================
+- Began creating documentation for the code
+- Started cleaning up code
+- Testing, testing, testing
+- Added entity managing functions to physics engine
+- Added internal id system to physics and engine
+
+0.2.2 beta - 44 builds (6/17/2015)
+============================================
+- Implemented a simple event based system to the engine (interface can implement events that the engine will call if found)
+- Implemented basic kinetic energy and damage transfer in the interface
+- Fixed damage transfer ratios (now averages kinetic energy)
+
+0.2.1 beta - 105 builds (6/16/2015)
+============================================
+- Added clickability to testing interface
+- Added dragging to interface
+- Added velocity smoothing to dragging
+- Experimented and tested engine
+
+0.2.0 beta - 100 builds (6/10/2015)
+============================================
+- Added BASIC friction calculation and application
+- Updated a few physics engine constants
+- Added velocity clamping
+
+0.1.1 beta - 118 builds (6/5/2015)
+============================================
+- Created Collision Manifold.js
+- Added basic collision resolution and positional correction
+
+0.1.0 beta - 126 builds (6/4/2015)
+============================================
+- Set up project folder
+- Created TestInterface.html
+- Created TestInterface.js
+- Created TestObject.js
+- Created Physics.js
+- Created PhysicsEngine.js
+- Set up basic testing and demonstration interface
+- Added simple equations for velocity and acceleration
+- Added basic collision detection

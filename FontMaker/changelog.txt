@@ -1,0 +1,14 @@
+SquareShield Font Maker Changelog
+********************************************
+Date Created: 6/23/2015
+Date Updated: 6/23/2015
+Development Version: 0.1.0 beta
+Stable Version: 0.0.0 beta
+Total builds: 0
+********************************************
+
+0.1.0 beta -
+============================================
+- Set up project folder
+- Created interface
+- Added simple event handlers and matrix generation function

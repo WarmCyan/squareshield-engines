@@ -1,0 +1,56 @@
+SquareShield Font Engine Changelog
+********************************************
+Date Created: 6/21/2015
+Date Updated: 6/30/2015
+Development Version: 0.4.1 beta
+Stable Version: 0.4.0 beta
+Total builds: 489
+********************************************
+
+0.4.0 beta - 54 builds (6/30/2015)
+============================================
+- Added functionality to TextChar to remove animations when complete
+- Created logo
+- Further expanded alphabet with symbols
+- Cleaned up code
+- Added interface features
+- Documented API
+
+0.3.1 beta - 122 builds (6/27/2015)
+============================================
+- Added alignment algorithms (now can align left or right, and top or bottom)
+- Fixed multi-line calculation algorithm
+- Created Animation.js
+- Added basic keyframe animation support for numbers (linear)
+- Added basic keyframe animation support for matrices (linear)
+- Added basic keyframe animation support for colors (linear)
+
+0.3.0 beta - 103 builds (6/25/2015)
+============================================
+- Fixed centering algorithms
+- Created better alphabet
+- Added newline support
+
+0.2.1 beta - 114 builds (6/23/2015)
+============================================
+- Added variable widths and adjustable height to characters
+- Added centering options
+- Cleaned up a few text functions
+- Created SimpleAlphabet.js (loads the character matricies in a different file, so you can substitute custom "fonts")
+
+0.2.0 beta - 70 builds (6/23/2015)
+============================================
+- Created TextChar.js
+- Moved rendering procedure to TextChar
+- Moved testing algorithms to Text
+- Simple positional matrix caluclation functions added
+- Added relative fractional limit calculation
+- Added multiple line calculation and wrapping
+
+0.1.0 beta - 27 builds (6/22/2015)
+============================================
+- Set up project folder
+- Set up testing interface
+- Created Symbol.js
+- Created Text.js
+- Tested procedure of rendering blocks in the shape of characters based on a matrix

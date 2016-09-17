@@ -1,0 +1,48 @@
+<!--
+	File: TestInterface.html
+	Date Created: 6/21/2015
+	Date Edited: 6/25/2015
+	Copyright © 2015 Digital Warrior LAbs
+	Description: An interface that can be used for testing the engine
+-->
+<html>
+	<head>
+		<title>SquareShield Font 0.3.0 BETA</title>
+		<script src='TestInterface.js'></script>
+		<script src='Symbol.js'></script>
+		<script src='Text.js'></script>
+		<script src='TextChar.js'></script>
+		<!--<script src='SimpleAlphabet.js'></script>-->
+		<script src='BetterAlphabet.js'></script>
+		
+		<style>
+			.unselectable
+			{
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+		</style>
+	</head>
+	
+	<body class='unselectable' style='font-family: Arial;'>
+		<!--<img style='float: left; margin-right: 10px;' src='SquareShieldLogo.png'>-->
+		<h1 style='padding-top: 25px;'>SquareShield Font 0.3.0 beta</h1>
+		<p>JavaScript Font Engine (Created by Digital Warrior Labs)</p>
+		</br>
+		<table>
+			<tr>
+				<td> <canvas id="World" class='unselectable' height="450" width="800" style='border: solid 1px black; cursor: crosshair'></canvas> </td>
+				<td> <textarea class='unselectable' cols='90' rows="30" id='ObjectConsole' readonly></textarea> </td>
+			</tr>
+			<tr>
+				<td> <textarea class='unselectable' cols='110' rows="10" id='LogConsole' readonly></textarea> </td>
+				<td> <input type='button' onclick='toggleLog();' value='Toggle Log'> <input type='button' onclick='toggleAdvancedDebugging();' value='Toggle Advanced Debugging'> <input type='button' onclick='togglePlaying();' value='Toggle Play'> <input type='button' onclick='toggleDamagable();' value='Toggle Damage'> </br></br> <input type='button' onclick='spiceUp();' value='Spice it up!'> <input type='button' onclick='addNewGravBox();' value='Add New Box (grav)'> <input type='button' onclick='addNewBox();' value='Add New Box'> </td>
+			</tr>
+		</table>
+		<p>Copyright © 2015 Digital Warrior Labs</p>
+	</body>
+</html>

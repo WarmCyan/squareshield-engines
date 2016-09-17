@@ -1,0 +1,109 @@
+<html>
+	<head>
+		<title>TestObject</title>
+		<link rel='stylesheet' type='text/css' href='api_style.css'>
+	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+	</head>
+	<body>
+
+<div id='top_band'></div>
+<div id='logo_header_area'><h1>SquareShield 0.2.5 BETA</h1></div>
+<div id='content'>
+	<h1>Class <span class='keyword'>TestObject</span></h1>
+	<p>NOTE: NOT A PART OF THE ACTUAL PHYSICS ENGINE. This is an example class that demonstrates how to integrate the physics engine with a 'game object'. This class should NOT be included in a final product involving the physics engine! It serves as an example only!</p>
+
+	<hr/>
+	<p class='tabbedText'><a href='#constructorindex'>Constructor Index</a></p>
+	<p class='tabbedText'><a href='#functionindex'>Function Index</a></p>
+	<p class='tabbedText'><a href='#propertylist'>Property List</a></p>
+	<p class='tabbedText'><a href='#constructorlist'>Constructor List</a></p>
+	<p class='tabbedText'><a href='#functionlist'>Function List</a></p>
+	<hr/>
+
+	<a name='constructorindex'></a>
+	<h2>Constructor Index</h2>
+	<p>Click on any of the following constructor names to see more detail about them below.</p>
+	<table class='dataTable'>
+		<tr class='row1'>
+			<td><code><a href='#constructor0'>TestObject</a>(name, x, y, width, height, color)</code></td>
+		</tr>
+	</table>
+
+	<a name='functionindex'></a>
+	<h2>Function Index</h2>
+	<p>Click on any of the following function names to see more detail about them below.</p>
+	<table class='dataTable'>
+		<tr><th>Modifier/Return Type</th><th>Function Name</th></tr>
+		<tr class='row1'>
+			<td class='return_modifier_box'><code><span class='keyword'></span></code></td>
+			<td><code><a href='#function0'>renderObject</a>(context)</code></td>
+		</tr>
+	</table>
+
+</br>
+<hr/>
+
+	<a name='propertylist'></a>
+	<h3>Property List</h3>
+	<table class='dataTable'>
+		<tr class='row1'>
+			<td><code class='biggerCode'><span class='keyword'></span> clickable</code> - Boolean value representing whether the object will respond to a mouse click or not.</td>
+		</tr>
+		<tr class='row2'>
+			<td><code class='biggerCode'><span class='keyword'></span> color</code> - String hexidecimal color code for the square (should start with '#')</td>
+		</tr>
+		<tr class='row1'>
+			<td><code class='biggerCode'><span class='keyword'></span> damagable</code> - Boolean value representing whether the object can be damaged or not.</td>
+		</tr>
+		<tr class='row2'>
+			<td><code class='biggerCode'><span class='keyword'></span> health</code> - Remaining health, if damage is enabled and this property is below zero, it will be removed from the world.</td>
+		</tr>
+		<tr class='row1'>
+			<td><code class='biggerCode'><span class='keyword'></span> name</code> - Small identifying string so that it can be identified in the object console</td>
+		</tr>
+		<tr class='row2'>
+			<td><code class='biggerCode'><span class='keyword'></span> physics</code> -  <a href='physics.html'>Physics</a> object that contains all of the physical properties of this object</td>
+		</tr>
+	</table>
+
+</br>
+<hr/>
+
+	<a name='constructorlist'></a>
+	<h3>Constructor List</h3>
+	<table class='dataTable'>
+		<tr class='row1'>
+			<td>
+				<a name='constructor0'></a><code class='biggerCode'>TestObject(name, x, y, width, height, color)</code></br></br>
+<p><b>Input Parameters</b></p>
+	<p class='tabbedText'><code class='mediumCode'><span class='keyword'></span> name</code><span class='descriptionText'> - Small identifying string so that it can be identified in the object console</span></p>
+	<p class='tabbedText'><code class='mediumCode'><span class='keyword'></span> x</code><span class='descriptionText'> - Upper-left hand corner of the square. (From left side of canvas)</span></p>
+	<p class='tabbedText'><code class='mediumCode'><span class='keyword'></span> y</code><span class='descriptionText'> - Upper-left hand corner of the square. (From top of canvas)</span></p>
+	<p class='tabbedText'><code class='mediumCode'><span class='keyword'></span> width</code><span class='descriptionText'> - Pixel width of the square.</span></p>
+	<p class='tabbedText'><code class='mediumCode'><span class='keyword'></span> height</code><span class='descriptionText'> - Pixel height of the square.</span></p>
+	<p class='tabbedText'><code class='mediumCode'><span class='keyword'></span> color</code><span class='descriptionText'> - Hex color code for how it should be rendered (pass in a string starting with #)</span></p>
+			</td>
+		</tr>
+	</table>
+
+</br>
+<hr/>
+
+	<a name='functionlist'></a>
+	<h3>Function List</h3>
+	<table class='dataTable'>
+		<tr class='row1'>
+			<td>
+				<a name='function0'></a><span class='function_title'>renderObject</span></br><code class='biggerCode'><span class='keyword'></span> renderObject(context)</code></br></br>
+				<p>This function should be called by whatever is in charge of animating the current game frame.</p>
+<p><b>Input Parameters</b></p>
+	<p class='tabbedText'><code class='mediumCode'><span class='keyword'></span> context</code><span class='descriptionText'> - The canvas context that this object should be rendered on</span></p>
+			</td>
+		</tr>
+	</table>
+	</div>
+	<div id='bottom_band'>
+		<div id='footer_center'><p><i>Generated by Document It engine 1.0.166.2</i></br>Copyright © 2015 Digital Warrior Labs</p>
+	</div>
+</body>
+</html>

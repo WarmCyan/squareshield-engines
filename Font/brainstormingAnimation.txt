@@ -1,0 +1,19 @@
+things animation has:
+
+
+
+
+time start
+length [time]
+update function (dt)
+list of keyframes holding various data
+type of animation [to designate WHAT, or what variable is being animated]
+
+
+
+NOTE: needs to be function in the animation that returns CURRENT matrix/frame 
+(up to the class that contains animation to HANDLE that data)
+
+
+DOES NOT HAVE TO BE SPECIFICALLY A TEXT ANIMATION, this process should work for any type of animation, since it's the
+container class that actually HANDLES information.

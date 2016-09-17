@@ -1,0 +1,47 @@
+<!--
+	File: TestInterface.html
+	Date Created: 5/30/2015
+	Date Edited: 6/16/2015
+	Copyright © 2015 Digital Warrior LAbs
+	Description: An interface that can be used for testing the engine
+-->
+<html>
+	<head>
+		<title>SquareShield 0.2.2 BETA</title>
+		<script src='TestInterface.js'></script>
+		<script src='TestObject.js'></script>
+		<script src='Physics.js'></script>
+		<script src='PhysicsEngine.js'></script>
+		<script src='CollisionManifold.js'></script>
+		
+		<style>
+			.unselectable
+			{
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+		</style>
+	</head>
+	
+	<body class='unselectable' style='font-family: Arial;'>
+		<audio id="music" src='trololo.mp3'></audio>
+		<img style='float: left; margin-right: 10px;' src='SquareShieldLogo.png'>
+		<h1 style='padding-top: 25px;'>SquareShield 0.2.2 beta</h1>
+		<p>JavaScript Physics Engine</p>
+		</br>
+		<table>
+			<tr>
+				<td> <canvas id="World" class='unselectable' height="450" width="800" style='border: solid 1px black; cursor: crosshair'></canvas> </td>
+				<td> <textarea class='unselectable' cols='90' rows="30" id='ObjectConsole' readonly></textarea> </td>
+			</tr>
+			<tr>
+				<td> <textarea class='unselectable' cols='110' rows="10" id='LogConsole' readonly></textarea> </td>
+				<td> <input type='button' onclick='toggleLog();' value='Toggle Log'> <input type='button' onclick='toggleAdvancedDebugging();' value='Toggle Advanced Debugging'> <input type='button' onclick='togglePlaying();' value='Toggle Play'> <input type='button' onclick='toggleDamagable();' value='Toggle Damage'> </br></br> <input type='button' onclick='spiceUp();' value='Spice it up!'> <input type='button' onclick='addNewGravBox();' value='Add New Box (grav)'> <input type='button' onclick='addNewBox();' value='Add New Box'> <input type='button' onclick='fun();' value='FUN!'> </td>
+			</tr>
+		</table>
+	</body>
+</html>
